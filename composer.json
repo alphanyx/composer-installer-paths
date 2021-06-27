@@ -6,7 +6,7 @@
     "psr-4": {"Alphanyx\\ComposerInstallerPaths\\": "src/"}
   },
   "extra": {
-    "class": "Alphany\\ComposerInstallerPaths\\Plugin"
+    "class": "Alphanyx\\ComposerInstallerPaths\\Plugin"
   },
   "require": {
     "composer-plugin-api": "^1.0||^2.0"

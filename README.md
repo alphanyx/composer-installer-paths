@@ -38,21 +38,6 @@ To support additional package types, add an array of these types in the
 }
 ```
 
-Then, you can add mappings for packages of these types in the same way that you
-would add package types that are supported by [`composer/installers`][]:
-
-```json
-{
-    "extra": {
-        "installer-types": ["library"],
-        "installer-paths": {
-            "special/package/": ["my/package"],
-            "path/to/libraries/{$name}/": ["type:library"]
-        }
-    }
-}
-```
-
 ## License
 
 [MIT License][]

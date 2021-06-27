@@ -2,10 +2,10 @@
 
 namespace Alphanyx\ComposerInstallerPaths;
 
+use Alphanyx\ComposerInstallerPaths\Installers\CustomInstaller;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
-use CustomInstaller\Composer\CustomInstaller;
 
 class Plugin implements PluginInterface
 {
